@@ -3,4 +3,7 @@ def square(n):
     return a
 
 def is_even(n):
-    return (n%2==0)?True:False
+    if (n%2==0):
+        return True
+    else:
+        return False
