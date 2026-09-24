@@ -4,5 +4,5 @@ def test_square():
     assert square(4) == 16
 
 def test_is_even():
-    assert is_even(4)==True
-    assert is_even(5)==False
+    assert is_even(4) is True
+    assert is_even(5) is False
